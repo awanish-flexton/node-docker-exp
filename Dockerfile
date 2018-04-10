@@ -1,6 +1,7 @@
 FROM node:carbon
 
 # Clone the repository into the docker container
+# Public repo access
 RUN git clone https://github.com/awanish-flexton/node-docker-exp.git
 
 # Setting working directory to repository root
